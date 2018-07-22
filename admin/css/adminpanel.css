@@ -1,0 +1,399 @@
+*
+{
+	margin: 0;
+}
+#header
+{
+	width: 100%;
+	float: left;
+	text-align: left;
+	font-size: 80px;
+	opacity: 0.8;
+	border-top:2px solid white;
+	background-color: black;
+}
+#header-text
+{
+    width: 26%;
+    font-size: 50px;
+    color: #c90;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    float: left;
+}
+#heading
+{
+	width:50%;
+	float: left;
+	color: #c90;
+	margin-left: 350px;
+}
+#heading p
+{
+	text-decoration: underline;
+	font-size: 35px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 80px;
+}
+#notify
+{
+	width:50%;
+	float: left;
+	color: red;
+	margin-left: 350px;
+}
+#notify p
+{
+	font-size: 30px;
+	margin-bottom: 15px;
+	margin-left: 80px;
+}
+#user-welcome
+{
+	width: 99.8%;
+	float: left;
+	text-align: right;
+	color: #c90;
+	border-top: 1px white solid;
+	border-bottom: 1px black solid;
+}
+#user-welcome p
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 28px;
+	font-weight: bold;
+	margin-right: 80px;
+}
+#menu-list
+{
+	width:17%;
+	float: left;
+	background-color: black;
+	margin-top: 2.5px;
+}
+
+#menu-list ul
+{
+	list-style-type: none;
+	font-size: 20px;
+}
+#menu-list li
+{
+ margin: 15px 15px 15px -15px;
+ border-bottom: 2px white solid;
+}
+#menu-list a
+{
+	text-decoration: none;
+	
+	font-weight: bold;
+	display: block;
+	padding: 10px;
+}
+a{
+	color: #c90;
+}
+a:hover
+{
+	cursor: pointer;
+	text-decoration: none;
+}
+#menu-list a:hover
+{		
+	background-color: #333333;
+}
+#footer
+{	
+	float: left;
+	width: 100%;
+	position: relative;
+	background-color: black;
+	color: #c90;
+}
+#footer-text
+{
+	width: 80%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 100px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+#welcome
+{
+	margin-top: 500px; 
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	 font-weight: bold;
+	 position: relative;
+	 float: left;
+}
+#table-div
+{
+	width: 68%;
+	float: left;
+	margin-bottom: 25px;
+}
+table
+{
+	margin-top: 2px;
+	margin-left: 135px;
+	font-size: 19px;
+	width: 83.5%;
+	border-spacing:0px;
+	border-collapse: separate;
+	border: 0.5px solid black;
+	display: block;
+}
+td,th
+{
+	border: 0.5px solid black;
+	padding: 2px;
+}
+table img
+{
+	width: 25px;
+	height: 25px;
+	margin-left: 20px;
+}
+#new-user-box
+{
+	width: 30%;
+	margin-left: 465px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	float: left; 
+	text-align: left;
+}
+#username
+{
+	margin-top:10px;
+	width: 100%;
+	margin-left:80px;
+	float: left;
+	display: none;
+}
+#name
+{
+	margin-top:0px;
+	width: 100%;
+	margin-left:80px;
+	float: left;
+}
+#age
+{
+	margin-top:15px;
+	width: 100%;
+	margin-left:80px;
+	float: left;
+}
+#gender
+{
+	margin-top:15px;
+	width: 100%;
+	margin-left:80px;
+	float: left;	
+}
+#email
+{
+	margin-top:15px;
+	width: 100%;
+	margin-left:80px;
+	float: left;
+}
+#password
+{
+	margin-top:15px;
+	width: 100%;
+	margin-left:80px;
+	float: left;	
+}
+#confirm-password
+{
+	margin-top:15px;
+	width: 85%;
+	margin-left:80px;
+	float: left;
+}
+#userimage
+{
+	margin-top:15px;
+	width: 85%;
+	margin-left:80px;
+	float: left;
+}
+#new-user-buttondiv
+{
+	margin-top:35px;
+	text-align: center;
+	float: left;
+}
+#new-user-button
+{
+	width:200px;
+	height: 30px;
+	margin-left:150px;
+	margin-top:5px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #c90;
+}
+#new-user-username
+{
+	margin-left:115px;
+	margin-top:20px;
+	width: 200px;
+	border-color: white;
+	border:none;
+	border-collapse: none;
+	cursor: default;
+}
+#new-user-name
+{
+	margin-left:78px;
+	margin-top:20px;
+	width: 200px;
+}
+#new-user-age
+{
+	margin-left:90px;
+	margin-top:20px;
+	width: 200px;
+}
+#new-user-email
+{
+	margin-left:80px;
+	margin-top:20px;
+	width: 200px;
+}
+#new-user-gendermale
+{
+	margin-left:70px;
+	margin-top:20px;
+	width: 20px;
+}
+#new-user-genderfemale
+{
+	margin-left:80px;
+	margin-top:20px;	
+	width: 20px;
+}
+#new-user-password
+{
+	margin-left:65px;
+	margin-top:20px;
+	width: 200px;
+}
+#confirm-new-user-password
+{
+	margin-left:55px;
+	margin-top:15px;
+	width: 200px;
+}
+#new-user-image
+{
+	margin-left:25px;
+	margin-top:15px;
+	width: 200px;
+}
+#image
+{
+	float: left;
+	width:36%;
+	margin-bottom: 40px;
+	margin-left: 80px;
+}
+#image img
+{
+	width: 100%;
+	height: 350px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+#alert
+{
+	position: absolute;
+	font-weight: bold;
+	color: white;
+	font-size: 50px;
+	top:50px;
+	left:90px;
+}
+#count
+{
+	float: left;
+	width: 100%;
+	height: 60px;
+}
+#user-count
+{
+	width: 49.8%;
+	float: left;
+	border:black 1px solid;
+	text-align: center;
+	font-size: 45px;
+	height: 100%;
+}
+#blog-count
+{
+	width: 49.8%;
+	float: left;
+	border:black 1px solid;
+	text-align: center;
+	font-size: 45px;
+	height: 100%;
+}
+#alert-name
+{
+	display: none;
+	font-size: 15px;
+	color: red;
+	position: absolute;
+	margin-top:15px;
+}
+#alert-age
+{
+	display: none;
+	font-size: 15px;
+	color: red;
+	position: absolute;
+	margin-top:15px;
+}
+#alert-email
+{
+display: none;
+	font-size: 15px;
+	color: red;
+	position: absolute;
+	margin-top:15px;
+}
+#alert-password
+{
+	display: none;
+	font-size: 15px;
+	color: red;
+	position: absolute;
+	margin-top:15px;
+}
+a.active
+{
+	border: 1px white solid;
+	color: black;
+	background-color: #c90;
+}
+#alert
+{
+	width:30%;
+	float: left;
+	color: red;
+	font-size: 25px;
+	margin-left: 340px;
+	position: relative;
+	top: 0px;
+	display: none;
+}

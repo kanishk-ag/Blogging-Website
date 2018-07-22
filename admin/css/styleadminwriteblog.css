@@ -1,0 +1,175 @@
+*
+{
+	margin: 0;
+}
+#header
+{
+	width: 100%;
+	float: left;
+	text-align: left;
+	font-size: 80px;
+	opacity: 0.8;
+	border-top:2px solid white;
+	background-color: black;
+}
+#header-text
+{
+    width: 26%;
+    font-size: 50px;
+    color: #c90;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    float: left;
+}
+#user-welcome
+{
+	width: 99.8%;
+	float: left;
+	text-align: right;
+	color: #c90;
+	border-top: 1px white solid;
+	border-bottom: 1px black solid;
+}
+#user-welcome p
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 28px;
+	font-weight: bold;
+	margin-right: 80px;
+}
+#footer
+{	
+	float: left;
+	width: 100%;
+	position: relative;
+	background-color: black;
+	color: #c90;
+}
+#footer-text
+{
+	width: 80%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 100px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+#menu-list
+{
+	width:17%;
+	float: left;
+	background-color: black;
+	margin-top: 1px;
+}
+
+#menu-list ul
+{
+	list-style-type: none;
+	font-size: 20px;
+}
+#menu-list li
+{
+ margin: 15px 15px 15px -15px;
+ border-bottom: 2px white solid;
+}
+#menu-list a
+{
+	text-decoration: none;
+	
+	font-weight: bold;
+	display: block;
+	padding: 10px;
+}
+a{
+	color: #c90;
+}
+a:hover
+{
+	cursor: pointer;
+}
+#menu-list a:hover
+{		
+	background-color: #333333;
+}
+#heading
+{
+	width:30%;
+	float: left;
+	color: #c90;
+	margin-left: 200px;
+}
+#heading p
+{
+	text-decoration: underline;
+	font-size: 35px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 80px;
+}
+#new-blog-box
+{
+	width: 42%;
+	float: left; 
+	text-align: left;
+	margin-top: 10px;
+	margin-left: 220px;
+	margin-bottom: 40px;
+}
+#title
+{
+	margin-top:15px;
+	width: 82%;
+	margin-left:80px;
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+}
+#messagediv
+{
+	margin-top:60px;
+	margin-left:80px;
+	width: 82%;
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+}
+#message
+{
+	margin-top:30px;
+	height: auto;
+	border-radius: 2px;
+	border:2px black solid;
+	font-size: 15px;
+	width: 460px;
+	border-radius: 5px;
+}
+#blog-button
+{
+	width:200px;
+	height: 30px;
+	float: left;
+	margin-left:180px;
+	margin-top:20px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #c90;
+}
+#blog-title
+{
+	margin-left:40px;
+	width: 260px;
+	height: 25px;
+	position: absolute;
+	border-radius: 5px;
+	font-size: 15px;
+	border:2px black solid;
+}
+a.active
+{
+	border: 1px white solid;
+	color: black;
+	background-color: #c90;
+}

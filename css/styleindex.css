@@ -1,0 +1,136 @@
+*
+{
+	margin: 0;
+}
+body
+{
+	background-image: url(../Images/background-image.png);
+	background-repeat: no-repeat;
+	background-color: #253187;
+}
+#header
+{
+	width: 100%;
+	float: left;
+	text-align: left;
+	border-top:2px solid white;
+	
+}
+#header-text
+{
+	width: 15%;
+	font-size: 60px;
+	color: #fefffd;
+	margin-top: 25px;
+	margin-right: 174px;
+	margin-bottom: 22px;
+	float: right;
+}
+#notify
+{
+	float: left;
+	width: 30%;
+	font-size: 40px;
+	color: red;
+	margin-top: 25px;
+	margin-left: 30px;
+	margin-bottom: 22px;
+}
+#logo
+{
+	float: left;
+	width: 35%;
+	height: 380px;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+#logo img
+{
+	width: 95%;
+	height: 100%;
+}
+#login-box
+{
+	width:50%;
+	margin-top: 70px;
+	float: left; 
+	margin-left: 60px;
+	color: #c90;
+	font-size: 24px;
+}
+#username
+{
+	width: 60%;
+	float: left;
+	margin-left: 125px;
+}
+#password
+{
+	width: 60%;
+	float: left;
+	margin-left: 125px;
+}
+#login-buttondiv
+{
+	width: 16%;
+	float: left;
+	margin-top: 38px;
+	margin-left: 405px;
+}
+#login-button
+{
+	width:200px;
+	height: 70px;
+	border-radius: 6px;
+	text-align: center;
+	background-color: #3465b1;
+	font-size: 27px;
+	color: white;
+	border: none;
+}
+#login-button:hover
+{
+	cursor: pointer;
+}
+#username-input
+{
+	margin-left:20px;
+	margin-top:40px;
+	width: 460px;
+	border-radius: 8px;
+	height: 80px;
+	border: solid 2px #3465b1;
+	background-color: #263180;
+	font-size: 25px;
+	font-style: italic;
+	color: lightgray;
+	padding: 20px;
+}
+#password-input
+{
+	margin-left:20px;
+	background-color: #263180;
+	margin-top:40px;
+	width: 460px;
+	border-radius: 8px;
+	height: 80px;
+	border: solid 2px #3465b1;
+	font-size: 25px;
+	font-style: italic;
+	color: lightgray;
+	padding: 20px;
+}
+#new-user
+{
+	width: 15%;
+	float: left;
+	height: 20px;
+	margin-left: 540px;
+	margin-top: 28px;
+}
+#new-user a
+{
+	color:white;
+	font-size: 21px;
+	text-decoration: none;
+}

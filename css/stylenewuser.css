@@ -1,0 +1,311 @@
+*
+{
+	margin: 0;
+}
+body
+{
+	background-image: url(../Images/background-image.png);
+	background-repeat: no-repeat;
+	background-color: #253187;
+}
+#header
+{
+	width: 100%;
+	float: left;
+	text-align: left;
+	border-top:2px solid white;	
+	color: white;
+}
+#heading
+{
+	float: left;
+	width: 70%;
+	font-size: 42px;
+	margin-top: 42px;
+	margin-bottom: 22px;
+}
+#heading p
+{
+	margin-left: 50px;
+}
+#header-text
+{
+	width: 15%;
+	font-size: 60px;
+	margin-top: 25px;
+	margin-bottom: 22px;
+	float: left;
+}
+#logo
+{
+	float: left;
+	width: 35%;
+	height: 380px;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+#logo img
+{
+	width: 95%;
+	height: 100%;
+}
+#menu-list
+{
+	width:73%;
+	float: left;
+	margin-top: 22px;
+	background-color: black;
+
+}
+#menu-list ul
+{
+	list-style-type: none;
+	font-size: 20px;
+	float: right;
+	margin-right: 45px;
+}
+#menu-list li
+{
+ 	float: left;
+ 	margin: 10px 15px 10px 15px;
+}
+#menu-list a
+{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 8px;
+}
+a:hover
+{
+	cursor: pointer;
+	text-decoration: none;
+}
+#menu-list a:hover
+{		
+	background-color: #c90;
+}
+#new-user-box
+{
+	width:50%;
+	margin-top:17px;
+	float: left; 
+	margin-left: 45px;
+	font-size: 24px;
+}
+#name
+{
+	margin-top:0px;
+	width: 85%;
+	margin-left:80px;
+	float: left;
+
+}
+#age
+{
+	margin-top:8px;
+	width: 85%;
+	margin-left:80px;
+	float: left;
+}
+#gender
+{
+	margin-top:24px;
+	width: 85%;
+	margin-left:110px;
+	font-size: 28px;
+	float: left;	
+	color: lightgray;
+}
+#email
+{
+	margin-top:8px;
+	width: 85%;
+	margin-left:80px;
+	float: left;
+}
+#username
+{
+	margin-top:8px;
+	width: 85%;
+	margin-left:78px;
+	float: left;
+}
+#password
+{
+	margin-top:8px;
+	width: 85%;
+	margin-left:80px;
+	float: left;
+}
+#confirm-password
+{
+	margin-top:8px;
+	width: 85%;
+	margin-left:80px;
+	float: left;
+}
+#userimage
+{
+	margin-top:8px;
+	width: 85%;
+	margin-left:80px;
+	float: left;
+}
+#new-user-buttondiv
+{
+	width: 16%;
+	float: left;
+	margin-top: 38px;
+	margin-left: 410px;
+	margin-bottom: 50px;
+}
+#new-user-button
+{
+	width:180px;
+	height: 56px;
+	border-radius: 6px;
+	text-align: center;
+	background-color: #3465b1;
+	font-size: 23px;
+	color: white;
+	border: none;
+}
+#new-user-name
+{
+	margin-left:120px;
+	margin-top:15px;
+	width: 390px;
+	height: 45px;
+	border: solid 2px #3465b1;
+	background-color: #263180;
+	font-style: italic;
+	color: lightgray;
+	padding: 5px;
+	font-size: 16px;
+}
+#new-user-age
+{
+	margin-left:120px;
+	margin-top:15px;
+	width: 390px;
+	height: 45px;
+	border: solid 2px #3465b1;
+	background-color: #263180;
+	font-style: italic;
+	color: lightgray;
+	padding: 5px;
+	font-size: 16px;
+}
+#new-user-email
+{
+	margin-left:120px;
+	margin-top:15px;
+	width: 390px;
+	height: 45px;
+	border: solid 2px #3465b1;
+	background-color: #263180;
+	font-style: italic;
+	color: lightgray;
+	padding: 5px;
+	font-size: 16px;
+}
+#new-user-gendermale
+{
+	margin-left:120px;
+	margin-top:15px;
+	width: 30px;
+}
+#new-user-genderfemale
+{
+	margin-left:90px;
+	margin-top:15px;
+	width: 30px;
+}
+#new-user-username
+{
+	margin-left:120px;
+	margin-top:15px;
+	width: 390px;
+	height: 45px;
+	border: solid 2px #3465b1;
+	background-color: #263180;
+	font-style: italic;
+	color: lightgray;
+	padding: 5px;
+	font-size: 16px;
+}
+#new-user-password
+{
+	margin-left:120px;
+	margin-top:15px;
+	width: 390px;
+	height: 45px;
+	border: solid 2px #3465b1;
+	background-color: #263180;
+	font-style: italic;
+	color: lightgray;
+	padding: 5px;
+	font-size: 16px;
+}
+#confirm-new-user-password
+{	margin-left:120px;
+	margin-top:15px;
+	width: 390px;
+	height: 45px;
+	border: solid 2px #3465b1;
+	background-color: #263180;
+	font-style: italic;
+	color: lightgray;
+	padding: 5px;
+	font-size: 16px;
+}
+#new-user-image
+{
+	margin-left:120px;
+	margin-top:15px;
+	width: 390px;
+	height: 45px;
+	border: solid 2px #3465b1;
+	background-color: #263180;
+	font-style: italic;
+	color: lightgray;
+	font-size: 16px;
+}
+#alert-name
+{
+	display: none;
+	font-size: 20px;
+	color: red;
+	position: absolute;
+	margin-top:20px;
+}
+#alert-age
+{
+	display: none;
+	font-size: 20px;
+	color: red;
+	position: absolute;
+	margin-top:20px;
+}
+#alert-email
+{
+display: none;
+	font-size: 20px;
+	color: red;
+	position: absolute;
+	margin-top:20px;
+}
+#alert-password
+{
+	display: none;
+	font-size: 20px;
+	color: red;
+	position: absolute;
+	margin-top:20px;
+}
+a.active
+{
+	border: 1px white solid;
+	border-radius: 2px;
+}

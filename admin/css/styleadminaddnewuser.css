@@ -1,0 +1,322 @@
+*
+{
+	margin: 0;
+}
+#header
+{
+	width: 100%;
+	float: left;
+	text-align: left;
+	font-size: 80px;
+	opacity: 0.8;
+	border-top:2px solid white;
+	background-color: black;
+}
+#header-text
+{
+    width: 26%;
+    font-size: 50px;
+    color: #c90;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    float: left;
+}
+#user-welcome
+{
+	width: 99.8%;
+	float: left;
+	text-align: right;
+	color: #c90;
+	border-top: 1px white solid;
+	border-bottom: 1px black solid;
+}
+#user-welcome p
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 28px;
+	font-weight: bold;
+	margin-right: 80px;
+}
+#footer
+{	
+	float: left;
+	width: 100%;
+	position: relative;
+	background-color: black;
+	color: #c90;
+}
+#footer-text
+{
+	width: 80%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 100px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+#menu-list
+{
+	width:17%;
+	float: left;
+	background-color: black;
+	margin-top: 1px;
+}
+
+#menu-list ul
+{
+	list-style-type: none;
+	font-size: 20px;
+}
+#menu-list li
+{
+ margin: 15px 15px 15px -15px;
+ border-bottom: 2px white solid;
+}
+#menu-list a
+{
+	text-decoration: none;
+	
+	font-weight: bold;
+	display: block;
+	padding: 10px;
+}
+a
+{
+	color: #c90;
+}
+a:hover
+{
+	cursor: pointer;
+}
+#menu-list a:hover
+{		
+	background-color: #333333;
+}
+#heading
+{
+	width:30%;
+	float: left;
+	color: #c90;
+	margin-left: 200px;
+}
+#heading p
+{
+	text-decoration: underline;
+	font-size: 35px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 80px;
+}
+#new-user-box
+{
+	width: 33%;
+	margin-left: 220px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	float: left; 
+	text-align: left;
+}
+#image
+{
+	float: left;
+	width: 50%;
+}
+#image img
+{
+	position: relative;
+	bottom:20px;
+	width: 90%;
+	height: 380px;
+}
+#new-user-form
+{
+	margin-left:340px;
+	background-image: url("../../images/login-background.jpg");
+	height: 500px;
+	color: white;
+	width: 600px;
+	font-size: 20px;
+	float: left;
+}
+#name
+{
+	margin-top:0px;
+	width: 85%;
+	margin-left:80px;
+	float: left;
+}
+#age
+{
+	margin-top:8px;
+	width: 85%;
+	margin-left:80px;
+	float: left;
+}
+#gender
+{
+	margin-top:8px;
+	width: 85%;
+	margin-left:80px;
+	float: left;	
+}
+#email
+{
+	margin-top:8px;
+	width: 85%;
+	margin-left:80px;
+	float: left;
+}
+#username
+{
+	margin-top:8px;
+	width: 85%;
+	margin-left:78px;
+	float: left;
+}
+#password
+{
+	margin-top:8px;
+	width: 85%;
+	margin-left:80px;
+	float: left;
+}
+#confirm-password
+{
+	margin-top:8px;
+	width: 85%;
+	margin-left:80px;
+	float: left;
+}
+#userimage
+{
+	margin-top:8px;
+	width: 85%;
+	margin-left:80px;
+	float: left;
+}
+#new-user-buttondiv
+{
+	margin-top:0px;
+	margin-left: 40px;
+	width: 100%;
+	float: left;
+}
+#new-user-button
+{
+	width:200px;
+	height: 30px;
+	margin-left:100px;
+	margin-top:27px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #c90;
+}
+#new-user-name
+{
+	margin-left:120px;
+	margin-top:15px;
+	width: 200px;
+}
+#new-user-age
+{
+	margin-left:130px;
+	margin-top:15px;
+	width: 200px;
+}
+#new-user-email
+{
+	margin-left:118px;
+	margin-top:15px;
+	width: 200px;
+}
+#new-user-gendermale
+{
+	margin-left:100px;
+	margin-top:15px;
+	width: 30px;
+}
+#new-user-genderfemale
+{
+	margin-left:60px;
+	margin-top:15px;
+	width: 30px;
+}
+#new-user-username
+{
+	margin-left:55px;
+	margin-top:15px;
+	width: 200px;
+}
+#new-user-password
+{
+	margin-left:57px;
+	margin-top:15px;
+	width: 200px;
+}
+#confirm-new-user-password
+{
+	margin-left:37px;
+	margin-top:15px;
+	width: 200px;
+}
+#new-user-image
+{
+	margin-left:63px;
+	margin-top:15px;
+	width: 200px;
+}
+#image
+{
+	float: left;
+	width: 50%;
+	position: relative;
+	bottom: 40px;
+}
+#image img
+{
+	width: 75%;
+	height: 350px;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+#alert-name
+{
+	display: none;
+	font-size: 15px;
+	color: red;
+	position: absolute;
+	margin-top:15px;
+}
+#alert-age
+{
+	display: none;
+	font-size: 15px;
+	color: red;
+	position: absolute;
+	margin-top:15px;
+}
+#alert-email
+{
+display: none;
+	font-size: 15px;
+	color: red;
+	position: absolute;
+	margin-top:15px;
+}
+#alert-password
+{
+	display: none;
+	font-size: 15px;
+	color: red;
+	position: absolute;
+	margin-top:15px;
+}
+a.active
+{
+	border: 1px white solid;
+	color: black;
+	background-color: #c90;
+}

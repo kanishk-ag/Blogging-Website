@@ -1,0 +1,205 @@
+*
+{
+	margin: 0;
+}
+#header
+{
+	width: 100%;
+	float: left;
+	text-align: left;
+	font-size: 80px;
+	opacity: 0.8;
+	border-top:2px solid white;
+	background-color: black;
+}
+#header-text
+{
+	width: 20%;
+	font-size: 50px;
+	color: #c90;
+	margin-top: 20px;
+	margin-left: 80px;
+	margin-bottom: 20px;
+	float: left;
+}
+#user-welcome
+{
+	width: 99.8%;
+	float: left;
+	text-align: right;
+	color: #c90;
+	border-top: 1px white solid;
+	border-bottom: 1px black solid;
+}
+#user-welcome p
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 28px;
+	margin-right: 80px;
+}
+#footer
+{	
+	float: left;
+	width: 100%;
+	position: relative;
+	background-color: black;
+	color: #c90;
+}
+#footer-text
+{
+	width: 80%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 100px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+#menu-list
+{
+	width:73%;
+	float: left;
+	margin-top: 22px;
+	background-color: black;
+
+}
+#menu-list ul
+{
+	list-style-type: none;
+	font-size: 20px;
+	float: right;
+	margin-right: 45px;
+}
+#menu-list li
+{
+ 	float: left;
+ 	margin: 10px 15px 10px 15px;
+}
+#menu-list a
+{
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+}
+a
+{
+	color: white;
+}
+a:hover
+{
+	cursor: pointer;
+	text-decoration: none;
+}
+#menu-list a:hover
+{		
+	background-color: #c90;
+}
+#heading
+{
+	width: 100%;
+	float: left;
+	color: #c90;
+	text-align: center;
+}
+#heading p
+{
+	text-decoration: underline;
+	font-size: 35px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 80px;
+}
+#blogs
+{
+	width: 100%;
+	float: left;
+	margin-top:50px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+#userimage
+{
+	width: 20%;
+	float: left;
+	height: 150px;
+}
+#userimage img
+{
+	width: 75%;
+	margin-left:65px;
+	height: 100%;
+	border-radius: 9px;
+}
+#blogdiv
+{
+	width: 70%;
+	background-color:white;
+	height: 300px;
+	overflow-y: auto;
+	color: black;
+	margin-left: 20px;
+	float: left;
+	opacity: 0.8;
+}
+#blog-title
+{
+	width: 100%;
+	text-align: left;
+	font-weight: bold;
+	font-size:30px;
+	color: #c90;
+}
+#blog-by-line
+{
+	width: 100%;
+	float: left;
+	text-align: left;
+	font-size: 20px;
+	border-bottom: black 2px solid;
+}
+#blog-message
+{
+	width: 100%;
+	height: auto;
+	text-align: left;
+	margin-top: 10px;
+	float: left;
+	font-size:18px;
+	background-color: white;
+	color: black;
+}
+#paging
+{
+	width: 50%;
+	float: left;
+	font-size: 20px;
+	margin-bottom: 25px;
+	text-align: left;
+	margin-left: 160px;
+}
+#paging a
+{
+	text-decoration: none;
+	padding:8px;
+	border-top: 2px solid black;
+	border-bottom : 2px solid black;
+	border-left : 2px solid black;	
+	border-right: 2px solid black;
+	color: black;
+}
+#paging a:hover
+{
+	background-color: #c90;
+}
+#paging a.active
+{
+	color: white;
+	background-color: black;
+}
+a.active
+{
+	border: 1px black solid;
+	color: black;
+	background-color: white;
+}
