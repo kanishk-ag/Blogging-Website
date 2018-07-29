@@ -10,4 +10,3 @@ The "blogs" table includes all the blogs by the users using 5 columns: "ID","Use
 The "Username" of "blogs" table refers to the "Username" of "users" table.
 
 
-Any changes and updates are welcome.
